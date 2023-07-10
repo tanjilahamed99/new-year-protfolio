@@ -85,3 +85,24 @@ body
     color: rgba(22, 216, 135, 1);
 }
 /* plan */
+.plan{
+    margin-top: 150px;
+}
+.plan-tittle{
+    text-align: center;
+}
+.plan-contant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+.plan-info p{
+    color:  #737272;
+    font-size: 20px;
+}
+.plan-info h3{
+    font-size: 27px;
+}
