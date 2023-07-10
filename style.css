@@ -38,7 +38,9 @@ body
     color: #444343;
     margin: 15px 0;
 }
-.header-btn{
+
+.header-btn
+{
     color: white;
     padding: 10px;
     background-color: red;
@@ -46,3 +48,35 @@ body
     cursor: pointer;
     border-radius: 5px;
 }
+
+/* about start */
+.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    gap: 50px;
+}
+
+.about-logo img
+{
+    width: 451px;
+}
+
+.about-tittle
+{
+    font-size: 40px;
+}
+
+.about-desc,.about-list
+{
+    color:#444343;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 0;
+}
+.about-list i{
+    color: rgba(22, 216, 135, 1);
+}
+/* plan */
