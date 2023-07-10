@@ -5,6 +5,11 @@
     padding: 0;
     margin: 0;
 }
+/* maltiple */
+.section-tittle
+{
+    font-size: 40px;
+}
 
 body
 {
