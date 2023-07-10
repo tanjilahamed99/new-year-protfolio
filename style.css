@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
 }
+
 /* maltiple */
 .section-tittle
 {
@@ -74,24 +75,33 @@ body
     font-size: 40px;
 }
 
-.about-desc,.about-list
+.about-desc,
+.about-list
 {
-    color:#444343;
+    color: #444343;
     font-weight: 400;
     line-height: 26px;
     margin: 10px 0;
 }
-.about-list i{
+
+.about-list i
+{
     color: rgba(22, 216, 135, 1);
 }
+
 /* plan */
-.plan{
+.plan
+{
     margin-top: 150px;
 }
-.plan-tittle{
+
+.plan-tittle
+{
     text-align: center;
 }
-.plan-contant{
+
+.plan-contant
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,10 +109,45 @@ body
     margin-top: 50px;
     text-align: center;
 }
-.plan-info p{
-    color:  #737272;
+
+.plan-info p
+{
+    color: #737272;
     font-size: 20px;
 }
-.plan-info h3{
+
+.plan-info h3
+{
     font-size: 27px;
+}
+
+/* motivation */
+.motivation
+{
+    margin: 50px auto;
+    width: 80%;
+    height: 190px;
+    background-image: url(./images/gradient2.png), url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.motivation-tittle
+{
+    font-size: 40px;
+    color: white;
+    margin: 10px 0;
+}
+.btn{
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
 }
